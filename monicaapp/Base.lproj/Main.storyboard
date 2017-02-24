@@ -128,6 +128,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background3" translatesAutoresizingMaskIntoConstraints="NO" id="wZh-xD-rv6">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="終 南 別 業" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FVX-vh-pXr">
                                 <rect key="frame" x="109" y="140" width="156" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -147,10 +151,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background3" translatesAutoresizingMaskIntoConstraints="NO" id="wZh-xD-rv6">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.77647058820000003" green="0.78537326389999995" blue="0.77267795139999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -163,7 +163,7 @@
         <scene sceneID="nAD-lP-b7B">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4rh-pC-aRi" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="一秒落淚" selectedImage="emoticon-smile-7" id="s97-3g-o1d"/>
+                    <tabBarItem key="tabBarItem" title="一秒落淚" image="emoticon-smile-7" id="s97-3g-o1d"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="hzj-It-HL8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -308,7 +308,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background1" translatesAutoresizingMaskIntoConstraints="NO" id="zTA-2f-dn7">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background2" translatesAutoresizingMaskIntoConstraints="NO" id="zTA-2f-dn7">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -318,11 +318,6 @@
                                 <state key="normal" title="王維" backgroundImage="button1">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
-                                <connections>
-                                    <segue destination="3XJ-1t-GCm" kind="show" id="NMO-FI-S8T">
-                                        <nil key="action"/>
-                                    </segue>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w6j-kd-TlM">
                                 <rect key="frame" x="202" y="214" width="102" height="100"/>
@@ -330,6 +325,9 @@
                                 <state key="normal" title="李白" backgroundImage="button1">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="3XJ-1t-GCm" kind="show" id="otP-yP-4BU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rOS-yd-XLq">
                                 <rect key="frame" x="71" y="335" width="102" height="100"/>
@@ -366,6 +364,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background3" translatesAutoresizingMaskIntoConstraints="NO" id="xvw-cD-CSH">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="終 南 別 業" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ttV-z4-gVD">
                                 <rect key="frame" x="109" y="140" width="156" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -385,10 +387,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background3" translatesAutoresizingMaskIntoConstraints="NO" id="xvw-cD-CSH">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.77647058820000003" green="0.78537326389999995" blue="0.77267795139999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -401,7 +399,7 @@
         <scene sceneID="Mp4-GG-JZ4">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jNf-MO-gvK" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="一小時落淚" selectedImage="emoticon-sad-7" id="Ugc-i2-0B9"/>
+                    <tabBarItem key="tabBarItem" title="一小時落淚" image="emoticon-sad-7" id="Ugc-i2-0B9"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Md0-ex-8A9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -526,7 +524,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background1" translatesAutoresizingMaskIntoConstraints="NO" id="EVS-0G-bCf">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background3" translatesAutoresizingMaskIntoConstraints="NO" id="EVS-0G-bCf">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -536,11 +534,6 @@
                                 <state key="normal" title="王維" backgroundImage="button1">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
-                                <connections>
-                                    <segue destination="xmu-c2-QvI" kind="show" id="Vej-6x-hdg">
-                                        <nil key="action"/>
-                                    </segue>
-                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="12U-KO-0vJ">
                                 <rect key="frame" x="202" y="214" width="102" height="100"/>
@@ -562,6 +555,9 @@
                                 <state key="normal" title="李白" backgroundImage="button1">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="xmu-c2-QvI" kind="show" id="QpT-Fw-kvd"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.77647058820000003" green="0.78537326389999995" blue="0.77267795139999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -584,6 +580,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background3" translatesAutoresizingMaskIntoConstraints="NO" id="QTQ-hm-QBZ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="終 南 別 業" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4lR-yR-C7j">
                                 <rect key="frame" x="109" y="140" width="156" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -603,10 +603,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background3" translatesAutoresizingMaskIntoConstraints="NO" id="QTQ-hm-QBZ">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.77647058820000003" green="0.78537326389999995" blue="0.77267795139999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -619,7 +615,7 @@
         <scene sceneID="IQl-Bb-1FL">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="VTb-lf-hCH" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="一天落淚" selectedImage="heart-7" id="ia7-eR-Z4P"/>
+                    <tabBarItem key="tabBarItem" title="一天落淚" image="heart-7" id="ia7-eR-Z4P"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="gbA-WV-Va7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
